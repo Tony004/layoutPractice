@@ -1,0 +1,145 @@
+body{
+    background-color: #EBEBEB;
+}
+#wrapper{
+    width: 960px;
+    margin: 40px auto;
+    background-color: white;
+}
+header{
+
+}
+    #headLine1{
+        height: 120px;
+        line-height: 120px;
+        font-family: Georgia;
+    }
+        #headLine1 #left a{
+            float: left;
+            font-size: 54px;
+            text-decoration: none;
+            color: black;
+            padding-left: 30px;
+            letter-spacing: -3px;
+        }
+        #headLine1 #right{
+            float: right;
+            text-transform: lowercase;
+            font-size: 20px;
+            color: #999;
+            padding-right: 30px;
+            letter-spacing: -1px;
+        }
+    #menu{
+        background-color: orange;
+        line-height: 80px;
+        font-size: 0px;
+    }
+        #menu a:link, #menu a:visited{
+            display: inline-block;
+            width: 160px;
+            text-align: center;
+            font-size: 20px;
+            text-decoration: none;
+            color: #F7DAAF;
+        }
+        #menu a:hover{
+            color: white;
+        }
+        #menu a.active{
+            color: #F7DAAF;
+        }
+    #img{
+        margin-top: 60px;
+    }
+main{
+
+}
+    aside{
+        width: 270px;
+        padding: 20px;
+        float: left;
+    }
+        aside div{
+            margin-bottom: 30px;
+        }
+            aside h3{
+                margin: 0px;
+                font: normal 25px/55px Georgia;
+
+            }
+            aside ul{
+                list-style-image: url("li.gif");
+                padding-left: 18px;
+                margin: 0px;
+            }
+                aside li{
+                    border-bottom: 1px solid #E9E9E9;
+                }
+                    aside a:link, aside a:visited{
+                        color: #F0A003;
+                        line-height: 35px;
+                        text-decoration: underline;
+                    }
+                    aside a:hover{
+                        text-decoration: none;
+                    }
+            aside p{
+                margin-top: 0px;
+                font: normal 14px/30px "Trebuchet MS";
+            }
+    #textContent{
+        float: left;
+        width: 610px;
+        padding: 20px;
+    }
+        .paragraph{
+            margin-bottom: 50px;
+        }
+            .paragraph p{
+                line-height: 30px;
+                text-align: justify;
+                font-family: sans-serif;
+                font-size: 14px;
+            }
+            .paragraph a:link, .paragraph a:visited{
+                color: #F0A003;
+            }
+            .paragraph a:hover{
+                text-decoration: none;
+            }
+            .readmore{
+                text-align: right;
+                margin: 30px 30px 0px 0px;
+            }
+                .readmore a:link, .readmore a:visited{
+                    color: #F0A003;
+                    border: 1px solid #E9E9E9;
+                    padding: 5px 10px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-family: sans-serif;
+                }
+                .readmore a:hover{
+                    text-decoration: none;
+                    background-color: #FCF3E6;
+                }
+            .posted{
+                margin-bottom: 40px;
+            }
+footer{
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid #E9E9E9;
+    padding: 40px 0px;
+    font-size: 14px;
+}
+    footer a:link, footer a:visited{
+        color: #F0A003;
+    }
+    footer a:hover{
+        text-decoration: none;
+    }
+.clearfix{
+    clear: both;
+}
